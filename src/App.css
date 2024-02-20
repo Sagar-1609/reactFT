@@ -1,0 +1,28 @@
+form {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: rgb(149, 197, 199);
+}
+.LOGIN {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+input {
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+}
+button {
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  background-color: rgb(197, 57, 57);
+}
+a {
+  padding: 10px;
+}

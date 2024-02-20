@@ -1,0 +1,27 @@
+.naruto {
+  font-family: "Lucida Console, Courier New, monospace";
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.nar {
+  font-size: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.rate {
+  display: flex;
+  margin-bottom: 50px;
+}
+.price {
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0.2px;
+}
+.discount {
+  margin-left: 40px;
+  font-size: 17px;
+  font-style: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

@@ -1,0 +1,270 @@
+.upbar {
+  height: 120px;
+  width: "100%";
+  background-color: #cf2a26;
+  display: flex;
+  flex-direction: row;
+
+  .uplogo {
+    height: 70px;
+    width: 120px;
+    background-image: cover;
+    margin: 10px;
+  }
+}
+.logo {
+  /* background-image: url("senpi-merch-logo-real.p"); */
+  height: 100px;
+  width: 100px;
+}
+.upsearch {
+  height: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: first baseline;
+}
+#search {
+  border-radius: 8px;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.upoffers {
+  width: 10px;
+  font-family: sans-serif;
+  size-adjust: 10px;
+  color: rgb(224, 213, 180);
+  flex: 2;
+  justify-content: center;
+  margin: 0px 10px;
+}
+.contactus {
+  display: flexbox;
+  justify-content: last baseline;
+  flex: 1;
+  font-family: sans-serif;
+  color: rgb(224, 213, 180);
+}
+
+/*sign up*/
+.log-and-sign {
+  position: relative;
+  left: 500px;
+}
+.login {
+  padding: 10px;
+  border-radius: 10px;
+}
+.cover-image {
+  display: flex;
+}
+
+.poster {
+  height: 900px;
+  border: 0.5px solid black;
+  width: 700px;
+  /* background-image: url("banbnr-tees.jpg"); */
+}
+
+/*salesupdate*/
+
+.saleupdate {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 45px;
+  align-items: end;
+}
+.product-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tshirt {
+  height: 400px;
+  width: 324px;
+  border: 0.5px solid rgb(19, 16, 16);
+}
+.box-image1 {
+  height: 400px;
+  width: 324px;
+  display: flex;
+  border: 1px;
+}
+.box-image2 {
+  height: 400px;
+  width: 324px;
+}
+.box-image3 {
+  height: 400px;
+  width: 324px;
+}
+.wholefirst {
+  height: 600px;
+  border: 3px solid black;
+  width: 324px;
+  margin: 50px;
+}
+div {
+  display: inline-block;
+}
+
+/*product info*/
+
+.product-info {
+  height: 400px;
+  width: 324px;
+  border: 3px dotted black;
+  display: inline-block;
+}
+
+.pinfo {
+  height: 120px;
+  width: 324px;
+  border: 0.4px solid black;
+  background-color: rgba(226, 211, 211, 0.651);
+}
+.BIGINFO {
+  /* display: inline-block; */
+
+  height: 50px;
+  width: 100%;
+}
+
+.naruto {
+  font-family: "Lucida Console, Courier New, monospace";
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.nar {
+  font-size: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*price for first block*/
+.rate {
+  display: flex;
+  margin-bottom: 50px;
+}
+.price {
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0.2px;
+}
+
+.discount {
+  margin-left: 40px;
+  font-size: 17px;
+  font-style: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.naruto2 {
+  font-family: "Lucida Console, Courier New, monospace";
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.nar2 {
+  font-size: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.rate2 {
+  display: flex;
+  margin-bottom: 50px;
+}
+.price2 {
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0.2px;
+}
+.naruto3 {
+  font-family: "Lucida Console, Courier New, monospace";
+  font-size: 12px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.nar3 {
+  font-size: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*price for first block*/
+.rate3 {
+  display: flex;
+  margin-bottom: 50px;
+}
+.price3 {
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0.2px;
+  margin-left: 1rem;
+}
+
+.discount3 {
+  margin-left: 40px;
+  font-size: 17px;
+  font-style: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.tshirt2 {
+  height: 400px;
+  width: 400px;
+  border: 0.5px solid rgb(19, 16, 16);
+}
+
+.upperbar {
+  border: 10px solid black;
+}
+
+.top {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.button {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  justify-content: space-around;
+}
+.log-and-sign {
+  flex-direction: column;
+  display: inline-block;
+  padding: 10px;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: end;
+}
+.button {
+  padding: 12px;
+  font-family: monospace;
+  border: 0.5px solid #ded2ce;
+  margin: 5.5px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+ul.top {
+  justify-content: space-between;
+}
+input {
+  padding: 5px;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.discount {
+  color: rgba(49, 46, 233, 0.836);
+}
+.discount3 {
+  color: rgba(49, 46, 233, 0.836);
+}
